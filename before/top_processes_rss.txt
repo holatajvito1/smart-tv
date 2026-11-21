@@ -1,0 +1,25 @@
+234328 com.amazon.tv.launcher
+210824 system_server
+186104 dex2oat32
+129976 com.amazon.venezia
+126812 com.amazon.venezia
+117468 com.amazon.vizzini
+116256 com.amazon.tv.settings.v2
+113116 com.amazon.device.services
+107924 com.amazon.tv.devicecontrol
+104508 com.amazon.aca
+104468 com.amazon.tv.devicecontrol
+103868 com.android.systemui
+ 99960 com.amazon.tv.inputpreference.service
+ 97476 com.amazon.tv.ime
+ 97392 com.amazon.ceviche
+ 93984 com.amazon.tv.quicksettings
+ 93412 com.amazon.tcomm
+ 93304 com.amazon.device.messaging
+ 93064 com.amazon.whisperjoin.middleware.v2.np
+ 90428 com.amazon.whisperjoin.middleware.np
+ 89560 com.android.bluetooth
+ 89444 com.amazon.alexamediaplayer.runtime.ftv
+ 89072 com.amazon.whisperjoin.middleware.v2.np
+ 88392 zygote
+ 87124 com.mediatek.customerpq

@@ -1,0 +1,6 @@
+18:37:41 MemAvailable: 569796 kB MemFree: 73200 kB
+18:37:51 MemAvailable: 581188 kB MemFree: 90100 kB
+18:38:02 MemAvailable: 638028 kB MemFree: 159472 kB
+18:38:12 MemAvailable: 600944 kB MemFree: 103080 kB
+18:38:22 MemAvailable: 636368 kB MemFree: 121232 kB
+18:38:33 MemAvailable: 678604 kB MemFree: 171556 kB

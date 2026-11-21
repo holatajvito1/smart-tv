@@ -1,0 +1,1 @@
+com.amazon.tv.launcher/.ui.HomeActivity_vNext

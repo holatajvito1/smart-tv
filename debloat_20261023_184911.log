@@ -1,0 +1,79 @@
+com.amazon.tv.acr: Package com.amazon.tv.acr new state: disabled-user
+com.amazon.ftvads.deeplinking: 
+Exception occurred while executing 'disable-user':
+java.lang.SecurityException: Cannot disable a protected package: com.amazon.ftvads.deeplinking
+	at com.android.server.pm.PackageManagerService.setEnabledSetting(PackageManagerService.java:21465)
+	at com.android.server.pm.PackageManagerService.setApplicationEnabledSetting(PackageManagerService.java:21297)
+	at com.android.server.pm.PackageManagerShellCommand.runSetEnabledSetting(PackageManagerShellCommand.java:2151)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:233)
+	at android.os.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:98)
+	at android.os.ShellCommand.exec(ShellCommand.java:44)
+	at com.android.server.pm.PackageManagerService.onShellCommand(PackageManagerService.java:22117)
+	at android.os.Binder.shellCommand(Binder.java:929)
+	at android.os.Binder.onTransact(Binder.java:813)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4603)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:4388)
+	at android.os.Binder.execTransactInternal(Binder.java:1159)
+	at android.os.Binder.execTransact(Binder.java:1123)
+com.amazon.hybridadidservice: Package com.amazon.hybridadidservice new state: disabled-user
+com.amazon.kso.blackbird: Package com.amazon.kso.blackbird new state: disabled-user
+com.amazon.sneakpeek: Package com.amazon.sneakpeek new state: disabled-user
+com.amazon.device.telemetry.emitter: Package com.amazon.device.telemetry.emitter new state: disabled-user
+com.amazon.device.metrics: 
+Exception occurred while executing 'disable-user':
+java.lang.SecurityException: Cannot disable a protected package: com.amazon.device.metrics
+	at com.android.server.pm.PackageManagerService.setEnabledSetting(PackageManagerService.java:21465)
+	at com.android.server.pm.PackageManagerService.setApplicationEnabledSetting(PackageManagerService.java:21297)
+	at com.android.server.pm.PackageManagerShellCommand.runSetEnabledSetting(PackageManagerShellCommand.java:2151)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:233)
+	at android.os.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:98)
+	at android.os.ShellCommand.exec(ShellCommand.java:44)
+	at com.android.server.pm.PackageManagerService.onShellCommand(PackageManagerService.java:22117)
+	at android.os.Binder.shellCommand(Binder.java:929)
+	at android.os.Binder.onTransact(Binder.java:813)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4603)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:4388)
+	at android.os.Binder.execTransactInternal(Binder.java:1159)
+	at android.os.Binder.execTransact(Binder.java:1123)
+com.amazon.wirelessmetrics.service: Package com.amazon.wirelessmetrics.service new state: disabled-user
+com.amazon.perfc: Package com.amazon.perfc new state: disabled-user
+com.amazon.perfcollection: Package com.amazon.perfcollection new state: disabled-user
+com.amazon.device.crashmanager: 
+Exception occurred while executing 'disable-user':
+java.lang.SecurityException: Cannot disable a protected package: com.amazon.device.crashmanager
+	at com.android.server.pm.PackageManagerService.setEnabledSetting(PackageManagerService.java:21465)
+	at com.android.server.pm.PackageManagerService.setApplicationEnabledSetting(PackageManagerService.java:21297)
+	at com.android.server.pm.PackageManagerShellCommand.runSetEnabledSetting(PackageManagerShellCommand.java:2151)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:233)
+	at android.os.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:98)
+	at android.os.ShellCommand.exec(ShellCommand.java:44)
+	at com.android.server.pm.PackageManagerService.onShellCommand(PackageManagerService.java:22117)
+	at android.os.Binder.shellCommand(Binder.java:929)
+	at android.os.Binder.onTransact(Binder.java:813)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4603)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:4388)
+	at android.os.Binder.execTransactInternal(Binder.java:1159)
+	at android.os.Binder.execTransact(Binder.java:1123)
+com.amazon.device.logmanager: 
+Exception occurred while executing 'disable-user':
+java.lang.SecurityException: Cannot disable a protected package: com.amazon.device.logmanager
+	at com.android.server.pm.PackageManagerService.setEnabledSetting(PackageManagerService.java:21465)
+	at com.android.server.pm.PackageManagerService.setApplicationEnabledSetting(PackageManagerService.java:21297)
+	at com.android.server.pm.PackageManagerShellCommand.runSetEnabledSetting(PackageManagerShellCommand.java:2151)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:233)
+	at android.os.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:98)
+	at android.os.ShellCommand.exec(ShellCommand.java:44)
+	at com.android.server.pm.PackageManagerService.onShellCommand(PackageManagerService.java:22117)
+	at android.os.Binder.shellCommand(Binder.java:929)
+	at android.os.Binder.onTransact(Binder.java:813)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4603)
+	at com.android.server.pm.PackageManagerService.onTransact(PackageManagerService.java:4388)
+	at android.os.Binder.execTransactInternal(Binder.java:1159)
+	at android.os.Binder.execTransact(Binder.java:1123)
+com.amazon.tv.democontent.provider: Package com.amazon.tv.democontent.provider new state: disabled-user
+com.amazon.storm.lightning.tutorial: Package com.amazon.storm.lightning.tutorial new state: disabled-user
+com.amazon.tmm.tutorial: Package com.amazon.tmm.tutorial new state: disabled-user
+com.amazon.tv.releasenotes: Package com.amazon.tv.releasenotes new state: disabled-user
+com.amazon.tv.earlyaccess: Package com.amazon.tv.earlyaccess new state: disabled-user
+com.amazon.minitv.android.app: Package com.amazon.minitv.android.app new state: disabled-user
+com.amazon.shoptv.client: Package com.amazon.shoptv.client new state: disabled-user

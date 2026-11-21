@@ -1,0 +1,3 @@
+# Build output (rebuilt by launcher/android/build.sh)
+launcher/android/build/
+.DS_Store

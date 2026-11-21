@@ -1,0 +1,2753 @@
+Current AppOps Service state:
+  Settings:
+    top_state_settle_time=+5s0ms
+    fg_service_state_settle_time=+5s0ms
+    bg_state_settle_time=+1s0ms
+
+  Profile owners:
+    User #0: u0a182
+    User #10: u10a152
+
+  Op mode watchers:
+    Op COARSE_LOCATION:
+      #0: ModeCallback{4efdfd8 watchinguid=-1 flags=0x1 op=COARSE_LOCATION from uid=1000 pid=1033}
+      #1: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op READ_CONTACTS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op WRITE_CONTACTS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op READ_CALL_LOG:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op WRITE_CALL_LOG:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op READ_CALENDAR:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op WRITE_CALENDAR:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op CALL_PHONE:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op READ_SMS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op RECEIVE_SMS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op RECEIVE_MMS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op RECEIVE_WAP_PUSH:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op SEND_SMS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op WRITE_SETTINGS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op SYSTEM_ALERT_WINDOW:
+      #0: ModeCallback{7320da5 watchinguid=-1 flags=0x0 op=SYSTEM_ALERT_WINDOW from uid=1000 pid=1033}
+      #1: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op CAMERA:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op RECORD_AUDIO:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op TOAST_WINDOW:
+      #0: ModeCallback{7320da5 watchinguid=-1 flags=0x0 op=SYSTEM_ALERT_WINDOW from uid=1000 pid=1033}
+    Op READ_PHONE_STATE:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op ADD_VOICEMAIL:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op USE_SIP:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op PROCESS_OUTGOING_CALLS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op BODY_SENSORS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op READ_CELL_BROADCASTS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op READ_EXTERNAL_STORAGE:
+      #0: ModeCallback{14c0bcd watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u0a219 pid=2459}
+      #1: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+      #2: ModeCallback{be24a50 watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u10a219 pid=7557}
+    Op WRITE_EXTERNAL_STORAGE:
+      #0: ModeCallback{14c0bcd watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u0a219 pid=2459}
+      #1: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+      #2: ModeCallback{be24a50 watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u10a219 pid=7557}
+    Op GET_ACCOUNTS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+      #1: ModeCallback{d736f33 watchinguid=-1 flags=0x0 op=GET_ACCOUNTS from uid=1000 pid=1033}
+    Op RUN_IN_BACKGROUND:
+      #0: ModeCallback{5a3b758 watchinguid=-1 flags=0x0 op=RUN_IN_BACKGROUND from uid=1000 pid=1033}
+    Op READ_PHONE_NUMBERS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op INSTANT_APP_START_FOREGROUND:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op ANSWER_PHONE_CALLS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op RUN_ANY_IN_BACKGROUND:
+      #0: ModeCallback{73fda94 watchinguid=-1 flags=0x0 op=RUN_ANY_IN_BACKGROUND from uid=1000 pid=1033}
+    Op ACCEPT_HANDOVER:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op ACTIVITY_RECOGNITION:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op SMS_FINANCIAL_TRANSACTIONS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op WRITE_MEDIA_VIDEO:
+      #0: ModeCallback{14c0bcd watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u0a219 pid=2459}
+      #1: ModeCallback{be24a50 watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u10a219 pid=7557}
+    Op WRITE_MEDIA_IMAGES:
+      #0: ModeCallback{14c0bcd watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u0a219 pid=2459}
+      #1: ModeCallback{be24a50 watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u10a219 pid=7557}
+    Op LEGACY_STORAGE:
+      #0: ModeCallback{14c0bcd watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u0a219 pid=2459}
+      #1: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+      #2: ModeCallback{be24a50 watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u10a219 pid=7557}
+    Op ACCESS_MEDIA_LOCATION:
+      #0: ModeCallback{14c0bcd watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u0a219 pid=2459}
+      #1: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+      #2: ModeCallback{be24a50 watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u10a219 pid=7557}
+    Op MANAGE_EXTERNAL_STORAGE:
+      #0: ModeCallback{14c0bcd watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u0a219 pid=2459}
+      #1: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+      #2: ModeCallback{be24a50 watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u10a219 pid=7557}
+    Op INTERACT_ACROSS_PROFILES:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op LOADER_USAGE_STATS:
+      #0: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    Op NO_ISOLATED_STORAGE:
+      #0: ModeCallback{14c0bcd watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u0a219 pid=2459}
+      #1: ModeCallback{be24a50 watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u10a219 pid=7557}
+  All op mode watchers:
+    342bee7: ModeCallback{73fda94 watchinguid=-1 flags=0x0 op=RUN_ANY_IN_BACKGROUND from uid=1000 pid=1033}
+    4ae3ebb: ModeCallback{4efdfd8 watchinguid=-1 flags=0x1 op=COARSE_LOCATION from uid=1000 pid=1033}
+    7f156a2: ModeCallback{d736f33 watchinguid=-1 flags=0x0 op=GET_ACCOUNTS from uid=1000 pid=1033}
+    7fa7f9c: ModeCallback{7320da5 watchinguid=-1 flags=0x0 op=SYSTEM_ALERT_WINDOW from uid=1000 pid=1033}
+    88577a5: ModeCallback{9e6677a watchinguid=-1 flags=0x0 op=READ_SMS from uid=1000 pid=1033}
+    ac66813: ModeCallback{be24a50 watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u10a219 pid=7557}
+    b727d64: ModeCallback{14c0bcd watchinguid=-1 flags=0x0 op=READ_EXTERNAL_STORAGE from uid=u0a219 pid=2459}
+    df4c43b: ModeCallback{5a3b758 watchinguid=-1 flags=0x0 op=RUN_IN_BACKGROUND from uid=1000 pid=1033}
+  All op active watchers:
+    4616917 ->
+        [CAMERA]
+        ActiveCallback{fea2fb3 watchinguid=-1 from uid=1000 pid=1033}
+    6c78791 ->
+        [CAMERA]
+        ActiveCallback{8b10970 watchinguid=-1 from uid=u0a219 pid=2459}
+    9145354 ->
+        [RECORD_AUDIO]
+        ActiveCallback{e154e9 watchinguid=-1 from uid=u0a74 pid=1649}
+    e032702 ->
+        [CAMERA]
+        ActiveCallback{d06556e watchinguid=-1 from uid=u10a219 pid=7557}
+  All op started watchers:
+    307a70a ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        StartedCallback{ace140f watchinguid=-1 from uid=1000 pid=1033}
+    3abf35d ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        StartedCallback{6754c9c watchinguid=-1 from uid=1000 pid=1033}
+    3c76166 ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        StartedCallback{9f156a5 watchinguid=-1 from uid=1000 pid=1033}
+    4808697 ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        StartedCallback{cc65a7a watchinguid=-1 from uid=1000 pid=1033}
+    62d4276 ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        StartedCallback{461e22b watchinguid=-1 from uid=1000 pid=1033}
+    9465b1f ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        StartedCallback{8d89688 watchinguid=-1 from uid=1000 pid=1033}
+  All op noted watchers:
+    f1e179 ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        NotedCallback{745b821 watchinguid=-1 from uid=1000 pid=1033}
+    2059d38 ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        NotedCallback{9ded7d8 watchinguid=-1 from uid=1000 pid=1033}
+    21f02ac ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        NotedCallback{10142e9 watchinguid=-1 from uid=1000 pid=1033}
+    4d40407 ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        NotedCallback{2b5e731 watchinguid=-1 from uid=1000 pid=1033}
+    72d9231 ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        NotedCallback{14fa446 watchinguid=-1 from uid=1000 pid=1033}
+    aeb86a8 ->
+        [COARSE_LOCATION, FINE_LOCATION, CAMERA, RECORD_AUDIO]
+        NotedCallback{f6d7fe5 watchinguid=-1 from uid=1000 pid=1033}
+
+  Uid 1000:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+    Package com.amazon.tv.settings.mediatek:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [pers-s] 2026-10-16 22:29:21.034 (-6d20h4m9s10ms) duration=+6d20h4m14s90ms
+          Running start at: +6d20h4m14s87ms
+          startNesting=2
+        ]
+    Package android:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [pers-s] 2026-10-23 18:27:22.225 (-6m7s819ms)
+        ]
+      READ_CONTACTS (allow): 
+        null=[
+          Access: [pers-tpd] 2026-10-16 22:31:17.690 (-6d20h2m12s354ms) proxy[uid=10029, pkg=com.android.providers.contacts, attributionTag=null]
+        ]
+      TAKE_AUDIO_FOCUS (allow): 
+        null=[
+          Access: [pers-s] 2026-10-23 07:07:58.867 (-11h25m31s177ms)
+        ]
+      AUDIO_MEDIA_VOLUME (allow): 
+        null=[
+          Access: [pers-s] 2026-10-23 06:31:04.723 (-12h2m25s321ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [pers-s] 2026-10-23 18:33:29.918 (-126ms) duration=+67ms
+        ]
+      MONITOR_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        SensorNotificationService=[
+          Access: [pers-s] 2026-10-16 22:29:16.040 (-6d20h4m14s4ms) duration=+6d20h4m19s89ms
+          Running start at: +6d20h4m19s81ms
+        ]
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [pers-s]2026-10-23 18:33:23.337 (-6s707ms)
+        ]
+      TURN_ON_SCREEN (allow): 
+        null=[
+          Access: [pers-s] 2026-10-23 18:27:14.884 (-6m15s160ms)
+        ]
+      MANAGE_EXTERNAL_STORAGE (default): 
+        null=[
+          Reject: [pers-s]2026-10-04 09:18:11.445 (-19d9h15m18s599ms)
+        ]
+    Package com.amazon.neodelegate:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [pers-s] 2026-10-16 22:30:59.995 (-6d20h2m30s49ms) duration=+501ms
+        ]
+      MANAGE_EXTERNAL_STORAGE (default): 
+        null=[
+          Reject: [pers-s]2025-08-19 21:36:49.860 (-429d20h56m40s184ms)
+        ]
+    Package com.amazon.tv.settings.core:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [pers-s] 2026-10-03 19:26:53.307 (-19d23h6m36s737ms)
+        ]
+    Package com.amazon.cast.sink:
+      MANAGE_EXTERNAL_STORAGE (default): 
+        null=[
+          Reject: [pers-s]2026-10-16 22:31:16.817 (-6d20h2m13s227ms)
+        ]
+    Package com.amazon.media.recommendations:
+      SYSTEM_ALERT_WINDOW (default): 
+        null=[
+          Access: [pers-s] 2026-10-23 18:16:23.225 (-17m6s819ms) duration=+8s44ms
+        ]
+  Uid 1002:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+      LEGACY_STORAGE: mode=ignore
+    Package com.android.bluetooth:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [pers-s] 2026-10-23 18:16:19.331 (-17m10s713ms) duration=+17m15s165ms
+          Access: [bg-s] 2026-10-10 09:33:03.534 (-13d9h0m26s510ms) duration=+1s170ms
+          Running start at: +17m15s154ms
+        ]
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [pers-s]2026-10-16 22:29:16.229 (-6d20h4m13s815ms)
+        ]
+  Uid 1037:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid 1041:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package audioserver:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [cch-s] 2026-10-23 18:33:14.731 (-15s313ms) duration=+3s1ms
+        ]
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [cch-s]2026-10-23 18:33:23.611 (-6s433ms)
+        ]
+  Uid 1068:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+  Uid 1073:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+    Package com.android.networkstack.tethering:
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [pers-s] 2026-10-23 18:27:22.216 (-6m7s828ms)
+        ]
+  Uid 2000:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a4:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a5:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+    Package com.amazon.smarthomemapviewapp:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-11 17:50:07.750 (-12d0h43m22s294ms) duration=+3s128ms
+          Access: [bg-s] 2026-10-11 17:50:10.878 (-12d0h43m19s166ms) duration=+26ms
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-23 18:28:13.175 (-5m16s869ms) duration=+201ms
+          Access: [bg-s] 2026-10-23 18:28:13.174 (-5m16s870ms) duration=+2ms
+        ]
+  Uid u0a6:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a8:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a10:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.hulu.plus:
+      TAKE_AUDIO_FOCUS (allow): 
+        null=[
+          Access: [top-s] 2026-10-11 17:51:14.151 (-12d0h42m15s893ms)
+        ]
+  Uid u0a11:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.apple.atve.amazon.appletv:
+      TAKE_AUDIO_FOCUS (allow): 
+        null=[
+          Access: [top-s] 2026-10-16 19:39:19.190 (-6d22h54m10s854ms)
+        ]
+  Uid u0a17:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package org.pbskids.video:
+      TAKE_AUDIO_FOCUS (allow): 
+        null=[
+          Access: [top-s] 2026-10-06 06:51:54.636 (-17d11h41m35s408ms)
+        ]
+  Uid u0a25:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a28:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a29:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.android.providers.contacts:
+      READ_CONTACTS (allow): 
+        null=[
+          Access: [fg-tp] 2026-10-16 22:31:17.689 (-6d20h2m12s355ms)
+        ]
+      READ_CALL_LOG (allow): 
+        null=[
+          Access: [bg-tp] 2026-10-16 22:31:12.856 (-6d20h2m17s188ms)
+        ]
+      WRITE_CALL_LOG (allow): 
+        null=[
+          Access: [bg-tp] 2026-10-16 22:31:12.950 (-6d20h2m17s94ms)
+        ]
+  Uid u0a31:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a34:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a35:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a36:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+    Package com.android.providers.calendar:
+      READ_CALENDAR (allow): 
+        null=[
+          Access: [bg-tp] 2026-10-23 17:35:46.315 (-57m43s729ms)
+          Access: [cch-tp] 2026-10-16 22:31:13.044 (-6d20h2m17s0ms)
+        ]
+      WRITE_CALENDAR (allow): 
+        null=[
+          Access: [bg-tp] 2026-10-16 22:32:32.192 (-6d20h0m57s852ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [bg-s] 2026-10-16 22:32:32.147 (-6d20h0m57s897ms) duration=+72ms
+        ]
+  Uid u0a37:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a39:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a47:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a48:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+    Package com.mediatek.customerpq:
+      WRITE_SETTINGS (default): 
+        null=[
+          Reject: [pers-s]2026-10-23 18:21:14.836 (-12m15s208ms)
+        ]
+  Uid u0a51:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+  Uid u0a52:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+  Uid u0a53:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a55:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a56:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a57:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.wifilocker:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 18:29:01.478 (-4m28s566ms)
+        ]
+      WIFI_SCAN (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 18:29:01.478 (-4m28s566ms)
+        ]
+  Uid u0a58:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.connectivitycontroller:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [bg-s]2026-10-23 18:16:20.193 (-17m9s851ms)
+        ]
+  Uid u0a62:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.device.messaging:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 11:54:01.396 (-7d6h39m28s648ms) duration=+202ms
+          Access: [fg-s] 2026-10-23 18:28:34.277 (-4m55s767ms) duration=+567ms
+          Access: [bg-s] 2026-10-23 18:29:24.863 (-4m5s181ms) duration=+638ms
+          Access: [cch-s] 2026-10-23 18:28:11.432 (-5m18s612ms) duration=+22s844ms
+        ]
+  Uid u0a64:
+    state=fg
+    capability=LCM
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.device.software.ota:
+      READ_EXTERNAL_STORAGE (allow): 
+        null=[
+          Access: [pers-s] 2026-10-04 09:19:46.919 (-19d9h13m43s125ms)
+          Access: [bg-s] 2026-10-16 22:29:34.251 (-6d20h3m55s793ms)
+        ]
+    Package com.amazon.device.software.ota.override:
+      READ_EXTERNAL_STORAGE (allow): 
+        null=[
+          Access: [pers-s] 2026-10-03 21:57:01.040 (-19d20h36m29s4ms)
+        ]
+  Uid u0a68:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+    Package com.android.providers.downloads:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [fg-s]2026-10-16 22:31:28.882 (-6d20h2m1s162ms)
+          Reject: [bg-s]2026-10-23 18:32:46.654 (-43s390ms)
+        ]
+      MANAGE_EXTERNAL_STORAGE (default): 
+        null=[
+          Reject: [bg-s]2026-10-03 19:25:26.138 (-19d23h8m3s906ms)
+        ]
+  Uid u0a69:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a70:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a71:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+  Uid u0a74:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+      LEGACY_STORAGE: mode=ignore
+    Package com.android.systemui:
+      SYSTEM_ALERT_WINDOW (default): 
+        null=[
+          Access: [pers-s] 2026-10-17 10:31:28.549 (-6d8h2m1s495ms) duration=+1s964ms
+        ]
+  Uid u0a75:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.client.metrics:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 22:21:32.294 (-6d20h11m57s750ms) duration=+25ms
+          Access: [fg-s] 2026-10-16 20:45:30.880 (-6d21h47m59s164ms) duration=+93ms
+          Access: [bg-s] 2026-10-07 21:44:59.987 (-15d20h48m30s57ms) duration=+25ms
+        ]
+  Uid u0a76:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+  Uid u0a77:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.logan:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [bg-s]2026-10-23 10:56:22.911 (-7h37m7s133ms)
+        ]
+      BIND_ACCESSIBILITY_SERVICE (allow): 
+        null=[
+          Access: [bg-s] 2026-10-16 22:29:46.658 (-6d20h3m43s386ms)
+          Access: [cch-s] 2026-10-23 18:33:02.433 (-27s611ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-04 12:16:30.136 (-19d6h16m59s908ms) duration=+20s477ms
+          Access: [fgsvc-s] 2026-10-16 20:04:52.019 (-6d22h28m38s25ms) duration=+121ms
+          Access: [bg-s] 2026-10-16 20:04:52.018 (-6d22h28m38s26ms) duration=+1ms
+        ]
+      ACCESS_ACCESSIBILITY (allow): 
+        null=[
+          Access: [top-s] 2026-10-04 12:16:50.370 (-19d6h16m39s674ms)
+        ]
+  Uid u0a78:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a79:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.tiramisubootsupport:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [cch-s] 2026-10-16 22:32:18.975 (-6d20h1m11s69ms)
+        ]
+  Uid u0a80:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a85:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.whisperlink.core.android:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-03 20:25:14.846 (-19d22h8m15s198ms) duration=+67ms
+          Access: [bg-s] 2026-10-23 07:08:00.920 (-11h25m29s124ms) duration=+105ms
+        ]
+  Uid u0a86:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+  Uid u0a90:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a91:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.alexa.datastore.app:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-03 19:27:49.039 (-19d23h5m41s5ms) duration=+3s95ms
+          Access: [bg-s] 2026-10-03 19:27:52.134 (-19d23h5m37s910ms) duration=+9ms
+          Access: [cch-s] 2026-10-03 19:27:52.143 (-19d23h5m37s901ms) duration=+2h26m36s493ms
+        ]
+  Uid u0a92:
+    state=fgsvc
+    capability=-CM
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.alexamediaplayer.runtime.ftv:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-23 18:33:13.194 (-16s850ms)
+          Access: [bg-s] 2026-10-10 09:33:56.868 (-13d8h59m33s176ms)
+          Access: [cch-s] 2026-10-16 22:29:42.953 (-6d20h3m47s91ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 22:29:45.818 (-6d20h3m44s226ms) duration=+6d20h3m48s701ms
+          Access: [bg-s] 2026-10-16 22:29:45.817 (-6d20h3m44s227ms) duration=+1ms
+          Access: [cch-s] 2026-10-04 02:07:16.057 (-19d16h26m13s987ms) duration=+3ms
+          Running start at: +6d20h3m48s668ms
+        ]
+  Uid u0a93:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a94:
+    state=fgsvc
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.alexa.externalmediaplayer.fireos:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-23 18:33:12.779 (-17s265ms) duration=+17s300ms
+          Access: [bg-s] 2026-10-23 18:33:12.533 (-17s511ms) duration=+246ms
+          Access: [cch-s] 2026-10-23 18:30:44.809 (-2m45s235ms) duration=+2m27s723ms
+          Running start at: +17s266ms
+          startNesting=8
+        ]
+  Uid u0a96:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.aria:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-10 16:40:25.416 (-13d1h53m4s628ms) duration=+356ms
+          Access: [fgsvc-s] 2026-10-10 16:40:25.772 (-13d1h53m4s272ms) duration=+17h30m53s527ms
+          Access: [bg-s] 2026-10-10 16:40:23.991 (-13d1h53m6s53ms) duration=+691ms
+          Access: [cch-s] 2026-10-11 10:11:19.300 (-12d8h22m10s744ms) duration=+5d12h16m20s561ms
+        ]
+  Uid u0a97:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a98:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      RECORD_AUDIO: mode=ignore
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.bueller.music:
+      TAKE_AUDIO_FOCUS (allow): 
+        null=[
+          Access: [top-s] 2026-10-16 20:45:02.170 (-6d21h48m27s874ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-16 20:45:02.358 (-6d21h48m27s686ms) duration=+17s27ms
+          Access: [fgsvc-s] 2026-10-16 20:45:19.385 (-6d21h48m10s659ms) duration=+1s209ms
+        ]
+  Uid u0a99:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_CONTACTS: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.bueller.photos:
+      MANAGE_EXTERNAL_STORAGE (default): 
+        null=[
+          Reject: [bg-s]2025-08-19 21:35:57.712 (-429d20h57m32s332ms)
+        ]
+      NO_ISOLATED_STORAGE (deny): 
+        null=[
+          Reject: [bg-s]2025-08-19 21:35:57.737 (-429d20h57m32s307ms)
+        ]
+  Uid u0a100:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a101:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+    Package com.amazon.cloud9:
+      MANAGE_EXTERNAL_STORAGE (default): 
+        null=[
+          Reject: [bg-s]2026-10-09 20:11:11.103 (-13d22h22m18s941ms)
+          Reject: [cch-s]2026-10-16 20:04:06.694 (-6d22h29m23s350ms)
+        ]
+      NO_ISOLATED_STORAGE (deny): 
+        null=[
+          Reject: [bg-s]2026-10-09 20:11:11.105 (-13d22h22m18s939ms)
+          Reject: [cch-s]2026-10-16 20:04:06.696 (-6d22h29m23s348ms)
+        ]
+  Uid u0a103:
+    state=bg
+    pendingState=cch
+    capability=---
+    appWidgetVisible=false
+    pendingStateCommitTime=+919ms
+    Package com.amazon.ceviche:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-17 10:30:36.609 (-6d8h2m53s435ms)
+          Access: [fg-s] 2026-10-16 22:30:02.562 (-6d20h3m27s482ms)
+          Access: [bg-s] 2026-10-17 17:47:35.434 (-6d0h45m54s610ms)
+          Access: [cch-s] 2026-10-23 18:28:15.009 (-5m15s35ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-23 18:16:19.850 (-17m10s194ms) duration=+414ms
+          Access: [fg-s] 2026-10-17 07:54:43.931 (-6d10h38m46s113ms) duration=+278ms
+          Access: [bg-s] 2026-10-23 18:16:19.846 (-17m10s198ms) duration=+4ms
+        ]
+  Uid u0a104:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a105:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a106:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a108:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=allow
+    Package com.amazon.device.crashmanager:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [bg-s]2026-10-17 07:23:57.993 (-6d11h9m32s51ms)
+        ]
+  Uid u0a109:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a110:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a111:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a112:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+  Uid u0a113:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a115:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+    Package com.amazon.diode:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 00:23:08.594 (-18h10m21s450ms)
+        ]
+      WIFI_SCAN (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 00:23:08.595 (-18h10m21s449ms)
+        ]
+  Uid u0a116:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a117:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+      CAMERA: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.firebat:
+      TAKE_AUDIO_FOCUS (allow): 
+        null=[
+          Access: [top-s] 2026-10-11 18:55:02.664 (-11d23h38m27s380ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [top-s] 2026-10-11 18:55:02.754 (-11d23h38m27s290ms) duration=+5m46s695ms
+          Access: [bg-s] 2026-10-04 18:02:28.519 (-19d0h31m1s525ms) duration=+33ms
+        ]
+      TOAST_WINDOW (allow): 
+        null=[
+          Access: [top-s] 2026-10-11 18:54:11.114 (-11d23h39m18s930ms) duration=+2s156ms
+        ]
+  Uid u0a120:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.franktvinput:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-03 19:25:57.034 (-19d23h7m33s10ms)
+        ]
+      WIFI_SCAN (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-03 19:25:57.037 (-19d23h7m33s7ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 22:32:00.489 (-6d20h1m29s555ms) duration=+4s957ms
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 22:31:58.956 (-6d20h1m31s88ms) duration=+63ms
+          Access: [bg-s] 2026-10-16 22:31:58.955 (-6d20h1m31s89ms) duration=+1ms
+        ]
+  Uid u0a121:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a122:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.ftv.profilepicker:
+      SYSTEM_ALERT_WINDOW (default): 
+        null=[
+          Reject: [top-s]2026-10-04 09:18:04.556 (-19d9h15m25s488ms)
+        ]
+      READ_DEVICE_IDENTIFIERS (deny): 
+        null=[
+          Reject: [top-s]2026-10-23 18:21:19.518 (-12m10s526ms)
+          Reject: [cch-s]2026-10-23 07:08:01.054 (-11h25m28s990ms)
+        ]
+  Uid u0a123:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a124:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+  Uid u0a125:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      RECORD_AUDIO: mode=ignore
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a126:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a127:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a128:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a130:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a131:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.katoch:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [bg-s] 2026-10-16 22:32:09.915 (-6d20h1m20s129ms) duration=+1s922ms
+        ]
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [bg-s] 2026-10-16 22:32:09.440 (-6d20h1m20s604ms)
+          Access: [cch-s] 2026-10-16 22:32:05.149 (-6d20h1m24s895ms)
+        ]
+  Uid u0a132:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a135:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.naatyam:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-23 18:29:06.010 (-4m24s34ms) duration=+12ms
+          Access: [bg-s] 2026-10-23 18:29:05.867 (-4m24s177ms) duration=+2ms
+        ]
+  Uid u0a137:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a138:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.perfcollection:
+      READ_DEVICE_IDENTIFIERS (deny): 
+        null=[
+          Reject: [bg-s]2026-10-23 18:29:46.045 (-3m43s999ms)
+          Reject: [cch-s]2026-10-23 18:29:51.315 (-3m38s729ms)
+        ]
+  Uid u0a140:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a141:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a142:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a143:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a144:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a146:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      CAMERA: mode=ignore
+      RECORD_AUDIO: mode=ignore
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a148:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.storage.manager:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [bg-s]2026-10-23 06:45:15.480 (-11h48m14s564ms)
+        ]
+  Uid u0a149:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.ssmsys:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [top-s] 2026-10-23 18:28:43.262 (-4m46s782ms)
+        ]
+      WIFI_SCAN (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [top-s] 2026-10-23 18:28:43.262 (-4m46s782ms)
+        ]
+  Uid u0a152:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+    Package com.amazon.tahoe:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-04 09:20:47.035 (-19d9h12m43s9ms) duration=+3s161ms
+          Access: [fgsvc-s] 2026-10-16 20:18:51.836 (-6d22h14m38s208ms) duration=+2h8m44s676ms
+          Access: [fg-s] 2026-10-16 20:18:50.331 (-6d22h14m39s713ms) duration=+1s505ms
+          Access: [cch-s] 2026-10-07 06:37:58.952 (-16d11h55m31s92ms) duration=+21s675ms
+        ]
+  Uid u0a153:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.tcomm:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [pers-s] 2026-10-23 18:31:14.011 (-2m16s33ms) duration=+2ms
+        ]
+  Uid u0a157:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a158:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a159:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a161:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.tv.alexaalerts:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-23 18:28:08.416 (-5m21s628ms) duration=+137ms
+          Access: [bg-s] 2026-10-23 18:28:08.412 (-5m21s632ms) duration=+4ms
+        ]
+  Uid u0a163:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a164:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_CONTACTS: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a165:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a166:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.tv.developer.dataservice:
+      READ_DEVICE_IDENTIFIERS (deny): 
+        null=[
+          Reject: [top-s]2026-10-04 09:08:32.190 (-19d9h24m57s854ms)
+        ]
+  Uid u0a167:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a168:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u0a169:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.tv.easyupgrade:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-03 19:26:56.297 (-19d23h6m33s747ms) duration=+204ms
+          Access: [bg-s] 2026-10-03 19:26:56.293 (-19d23h6m33s751ms) duration=+4ms
+        ]
+  Uid u0a171:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a172:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+  Uid u0a173:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+  Uid u0a174:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.tv.inputpreference.service:
+      SYSTEM_ALERT_WINDOW (default): 
+        null=[
+          Reject: [fgsvc-s]2026-10-17 10:32:29.180 (-6d8h1m0s864ms)
+          Reject: [bg-s]2026-10-17 17:46:33.186 (-6d0h46m56s858ms)
+        ]
+      TAKE_AUDIO_FOCUS (allow): 
+        null=[
+          Access: [top-s] 2026-10-23 18:16:22.906 (-17m7s138ms)
+        ]
+      TURN_ON_SCREEN (allow): 
+        null=[
+          Access: [bg-s] 2026-10-19 18:31:27.958 (-4d0h2m2s86ms)
+        ]
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-23 18:21:14.636 (-12m15s408ms)
+          Access: [fgsvc-s] 2026-10-17 10:49:14.157 (-6d7h44m15s887ms)
+          Access: [fg-s] 2026-10-17 17:46:15.649 (-6d0h47m14s395ms)
+          Access: [bg-s] 2026-10-22 07:15:34.925 (-1d11h17m55s119ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-23 18:16:22.580 (-17m7s464ms) duration=+10ms
+          Access: [fgsvc-s] 2026-10-23 18:16:20.126 (-17m9s918ms) duration=+2s454ms
+          Access: [bg-s] 2026-10-17 10:32:29.073 (-6d8h1m0s971ms) duration=+2ms
+        ]
+      READ_DEVICE_IDENTIFIERS (deny): 
+        null=[
+          Reject: [top-s]2026-10-23 18:21:13.131 (-12m16s913ms)
+          Reject: [bg-s]2026-10-16 19:32:34.192 (-6d23h0m55s852ms)
+        ]
+  Uid u0a175:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.tv.legal.notices:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [bg-s] 2026-10-03 19:27:36.813 (-19d23h5m53s231ms)
+          Access: [cch-s] 2026-10-03 19:27:36.494 (-19d23h5m53s550ms)
+        ]
+  Uid u0a176:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      RECORD_AUDIO: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+    Package com.amazon.tv.launcher:
+      TAKE_AUDIO_FOCUS (allow): 
+        null=[
+          Access: [top-s] 2026-10-16 19:52:21.686 (-6d22h41m8s358ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [top-s] 2026-10-07 18:46:32.187 (-15d23h46m57s857ms) duration=+29ms
+          Access: [fgsvc-s] 2026-10-03 21:56:10.279 (-19d20h37m19s765ms) duration=+50ms
+        ]
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [top-s]2026-10-23 18:27:14.751 (-6m15s293ms)
+          Reject: [fgsvc-s]2026-10-04 12:34:41.320 (-19d5h58m48s724ms)
+          Reject: [cch-s]2026-10-17 07:54:54.414 (-6d10h38m35s630ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-23 18:28:50.295 (-4m39s749ms) duration=+2s928ms
+          Access: [fgsvc-s] 2026-10-16 23:48:07.871 (-6d18h45m22s173ms) duration=+945ms
+          Access: [fg-s] 2026-10-23 18:17:10.047 (-16m19s997ms) duration=+2s962ms
+          Access: [bg-s] 2026-10-23 18:33:19.368 (-10s676ms) duration=+90ms
+          Access: [cch-s] 2026-10-23 18:33:19.458 (-10s586ms) duration=+10s654ms
+          Running start at: +10s587ms
+        ]
+      ACCESS_MEDIA_LOCATION (allow): 
+        null=[
+          Access: [top-tpd] 2026-10-04 07:18:20.164 (-19d11h15m9s880ms) proxy[uid=10219, pkg=com.android.providers.media.module, attributionTag=null]
+        ]
+      MANAGE_EXTERNAL_STORAGE (default): 
+        null=[
+          Reject: [top-s]2026-10-04 09:20:43.327 (-19d9h12m46s717ms)
+        ]
+  Uid u0a177:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a178:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+    Package com.amazon.tv.notificationcenter:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [bg-s] 2026-10-03 19:26:58.149 (-19d23h6m31s895ms)
+          Access: [cch-s] 2026-10-03 19:26:57.809 (-19d23h6m32s235ms)
+        ]
+  Uid u0a179:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u0a180:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.tv.livetv:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 21:53:28.327 (-6d20h40m1s717ms) duration=+2s42ms
+          Access: [fg-s] 2026-10-16 19:51:22.077 (-6d22h42m7s967ms) duration=+1s533ms
+          Access: [bg-s] 2026-10-16 21:53:30.369 (-6d20h39m59s675ms) duration=+3s431ms
+          Access: [cch-s] 2026-10-16 21:53:33.800 (-6d20h39m56s244ms) duration=+34m2s712ms
+        ]
+  Uid u0a181:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=allow
+    Package com.amazon.tv.oobe:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [top-s] 2026-10-03 19:25:07.574 (-19d23h8m22s470ms)
+          Access: [bg-s] 2026-10-16 22:32:25.522 (-6d20h1m4s522ms)
+        ]
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-03 19:26:58.169 (-19d23h6m31s875ms)
+          Access: [bg-s] 2026-10-16 22:32:25.481 (-6d20h1m4s563ms)
+          Access: [cch-s] 2026-10-16 22:32:22.414 (-6d20h1m7s630ms)
+        ]
+  Uid u0a182:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.tv.parentalcontrols:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-03 19:26:43.220 (-19d23h6m46s824ms)
+          Access: [bg-s] 2026-10-03 19:28:36.705 (-19d23h4m53s339ms)
+          Access: [cch-s] 2026-10-03 21:57:56.592 (-19d20h35m33s452ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-03 19:26:42.242 (-19d23h6m47s802ms) duration=+135ms
+          Access: [bg-s] 2026-10-03 19:26:42.239 (-19d23h6m47s805ms) duration=+3ms
+        ]
+  Uid u0a183:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.tv.quicksettings.ui:
+      SYSTEM_ALERT_WINDOW (default): 
+        null=[
+          Access: [top-s] 2026-10-17 17:49:51.665 (-6d0h43m38s379ms) duration=+1s839ms
+          Reject: [top-s]2026-10-17 17:49:51.659 (-6d0h43m38s385ms)
+          Access: [fgsvc-s] 2026-10-18 15:11:29.040 (-5d3h22m1s4ms) duration=+16s728ms
+          Reject: [fgsvc-s]2026-10-18 15:11:29.035 (-5d3h22m1s9ms)
+          Access: [bg-s] 2026-10-18 15:11:45.768 (-5d3h21m44s276ms) duration=+688ms
+          Access: [cch-s] 2026-10-18 15:11:46.456 (-5d3h21m43s588ms) duration=+25ms
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-17 17:49:51.502 (-6d0h43m38s542ms) duration=+153ms
+          Access: [fgsvc-s] 2026-10-18 15:11:28.767 (-5d3h22m1s277ms) duration=+17s1ms
+          Access: [bg-s] 2026-10-18 15:11:46.673 (-5d3h21m43s371ms) duration=+4ms
+          Access: [cch-s] 2026-10-18 15:11:46.677 (-5d3h21m43s367ms) duration=+5d3h21m47s884ms
+          Running start at: +5d3h21m47s809ms
+        ]
+      READ_DEVICE_IDENTIFIERS (deny): 
+        null=[
+          Reject: [top-s]2026-10-17 17:49:52.043 (-6d0h43m38s1ms)
+          Reject: [fgsvc-s]2026-10-18 15:11:45.923 (-5d3h21m44s121ms)
+        ]
+  Uid u0a184:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.tv.quicksettings:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [pers-s] 2026-10-23 07:13:58.989 (-11h19m31s55ms) duration=+2ms
+        ]
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [pers-s] 2026-10-23 18:30:01.019 (-3m29s25ms)
+          Access: [cch-s] 2026-10-03 21:55:38.412 (-19d20h37m51s632ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [pers-s] 2025-08-19 22:00:18.020 (-429d20h33m12s24ms) duration=+74ms
+        ]
+  Uid u0a185:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.tv.releasenotes:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 23:52:11.984 (-6d18h41m18s60ms)
+          Access: [bg-s] 2026-10-16 23:52:11.853 (-6d18h41m18s191ms)
+          Access: [cch-s] 2026-10-16 23:52:10.862 (-6d18h41m19s182ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 23:52:11.955 (-6d18h41m18s89ms) duration=+97ms
+          Access: [bg-s] 2026-10-16 23:52:11.950 (-6d18h41m18s94ms) duration=+6ms
+        ]
+  Uid u0a186:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.tv.routing:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [bg-s] 2026-10-03 21:57:11.063 (-19d20h36m18s981ms)
+          Access: [cch-s] 2026-10-03 21:57:10.727 (-19d20h36m19s317ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 22:31:35.011 (-6d20h1m55s33ms) duration=+2s118ms
+          Access: [bg-s] 2026-10-16 22:31:35.010 (-6d20h1m55s34ms) duration=+2ms
+          Access: [cch-s] 2026-10-04 00:44:36.962 (-19d17h48m53s82ms) duration=+12d21h43m6s33ms
+        ]
+  Uid u0a189:
+    state=top
+    capability=LCM
+    appWidgetVisible=false
+      READ_CALENDAR: mode=ignore
+      WRITE_CALENDAR: mode=ignore
+      LEGACY_STORAGE: mode=allow
+    Package com.amazon.tv.settings.v2:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [fgsvc-s]2026-10-20 22:51:25.334 (-2d19h42m4s710ms)
+          Reject: [bg-s]2026-10-22 22:59:16.913 (-19h34m13s131ms)
+        ]
+      TOAST_WINDOW (allow): 
+        null=[
+          Access: [top-s] 2026-10-23 18:27:54.695 (-5m35s349ms) duration=+12s659ms
+        ]
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-03 23:27:21.417 (-19d19h6m8s627ms)
+          Access: [bg-s] 2026-10-03 21:59:38.767 (-19d20h33m51s277ms)
+          Access: [cch-s] 2026-10-03 23:27:15.350 (-19d19h6m14s694ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-23 18:27:35.611 (-5m54s433ms) duration=+1s197ms
+          Access: [fgsvc-s] 2026-10-20 22:51:23.173 (-2d19h42m6s871ms) duration=+791ms
+          Access: [bg-s] 2026-10-20 22:51:23.171 (-2d19h42m6s873ms) duration=+1ms
+        ]
+  Uid u0a190:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+    Package com.amazon.vizzini:
+      RECORD_AUDIO (allow): 
+        null=[
+          Access: [pers-s] 2026-10-16 18:31:26.878 (-7d0h2m3s166ms) duration=+233ms
+        ]
+      TAKE_AUDIO_FOCUS (allow): 
+        null=[
+          Access: [pers-s] 2026-10-10 16:40:20.336 (-13d1h53m9s708ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [pers-s] 2026-10-17 10:31:24.976 (-6d8h2m5s68ms) duration=+1s955ms
+        ]
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [pers-s]2026-10-16 22:29:47.692 (-6d20h3m42s352ms)
+        ]
+  Uid u0a191:
+    state=fgsvc
+    capability=-CM
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+    Package com.apple.airplay.amazon.airplay:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 22:29:56.688 (-6d20h3m33s356ms) duration=+6d20h3m37s882ms
+          Access: [bg-s] 2026-10-16 22:29:56.680 (-6d20h3m33s364ms) duration=+9ms
+          Access: [cch-s] 2026-10-07 06:37:59.265 (-16d11h55m30s779ms) duration=+51s341ms
+          Running start at: +6d20h3m37s797ms
+          startNesting=2
+        ]
+  Uid u0a192:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.whisperjoin.middleware.np:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 18:27:31.212 (-5m58s832ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [bg-s] 2026-10-17 09:50:10.341 (-6d8h43m19s703ms) duration=+65ms
+        ]
+  Uid u0a193:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=allow
+    Package com.amazon.venezia:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [top-s] 2026-10-08 19:46:55.008 (-14d22h46m35s36ms)
+          Access: [fgsvc-s] 2026-10-13 06:54:43.525 (-10d11h38m46s519ms)
+          Access: [fg-s] 2026-10-16 19:38:33.560 (-6d22h54m56s484ms)
+          Access: [bg-s] 2026-10-23 18:31:12.449 (-2m17s595ms)
+        ]
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [top-s]2026-10-03 19:29:24.050 (-19d23h4m5s994ms)
+          Reject: [fg-s]2026-10-12 00:20:07.587 (-11d18h13m22s457ms)
+          Reject: [bg-s]2026-10-23 18:32:47.302 (-42s742ms)
+        ]
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-03 19:30:25.449 (-19d23h3m4s595ms)
+          Access: [fg-s] 2026-10-03 19:25:45.570 (-19d23h7m44s474ms)
+          Access: [bg-s] 2026-10-03 19:30:35.462 (-19d23h2m54s582ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-03 19:27:54.107 (-19d23h5m35s937ms) duration=+3s66ms
+          Access: [fgsvc-s] 2026-10-16 22:31:25.164 (-6d20h2m4s880ms) duration=+4s960ms
+          Access: [bg-s] 2026-10-16 22:31:25.162 (-6d20h2m4s882ms) duration=+2ms
+        ]
+  Uid u0a194:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a199:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a200:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a202:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+  Uid u0a203:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u0a206:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a210:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+  Uid u0a211:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+  Uid u0a213:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a215:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a216:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u0a218:
+    state=fg
+    capability=---
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+  Uid u0a219:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+    Package com.android.providers.media.module:
+      ACCESS_MEDIA_LOCATION (allow): 
+        null=[
+          Access: [pers-tp] 2026-10-04 07:18:20.164 (-19d11h15m9s880ms)
+        ]
+  Uid u0a222:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.android.permissioncontroller:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [bg-s]2026-10-16 22:33:09.570 (-6d20h0m20s474ms)
+        ]
+  Uid u0a223:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+      RECORD_AUDIO: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+    Package com.netflix.ninja:
+      TAKE_AUDIO_FOCUS (allow): 
+        null=[
+          Access: [top-s] 2026-10-17 10:01:33.557 (-6d8h31m56s487ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [top-s] 2026-10-17 07:55:07.264 (-6d10h38m22s780ms) duration=+3ms
+          Access: [bg-s] 2026-10-23 18:28:34.973 (-4m55s71ms) duration=+5ms
+        ]
+  Uid u0a224:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.firetv.youtube:
+      TAKE_AUDIO_FOCUS (allow): 
+        null=[
+          Access: [top-s] 2026-10-16 19:27:38.057 (-6d23h5m51s987ms)
+        ]
+  Uid u0a226:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.alexadirectivebrokerservice:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [cch-s] 2026-10-16 22:30:20.360 (-6d20h3m9s684ms)
+        ]
+  Uid u0a230:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.whisperjoin.middleware.v2.np:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 18:27:25.926 (-6m4s118ms)
+        ]
+      WIFI_SCAN (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 18:27:23.530 (-6m6s514ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [bg-s] 2026-10-17 09:50:20.341 (-6d8h43m9s703ms) duration=+67ms
+        ]
+  Uid u0ai9000:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10s1000:
+    state=fgsvc
+    capability=-CM
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=allow
+    Package com.amazon.tv.settings.mediatek:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-23 18:32:26.443 (-1m3s601ms) duration=+1m3s692ms
+          Access: [fg-s] 2026-10-04 09:19:00.010 (-19d9h14m30s34ms) duration=+2s929ms
+          Access: [bg-s] 2026-10-23 18:32:24.867 (-1m5s177ms) duration=+1s576ms
+          Access: [cch-s] 2026-10-23 18:32:24.697 (-1m5s347ms) duration=+169ms
+          Running start at: +1m3s602ms
+        ]
+  Uid u10s1002:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+      LEGACY_STORAGE: mode=ignore
+    Package com.android.bluetooth:
+      READ_CALL_LOG (allow): 
+      WRITE_CALL_LOG (allow): 
+      READ_SMS (allow): 
+      RECEIVE_SMS (allow): 
+      SEND_SMS (allow): 
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [pers-s] 2026-10-10 09:33:58.568 (-13d8h59m31s476ms) duration=+215ms
+          Access: [bg-s] 2026-10-10 09:33:56.616 (-13d8h59m33s428ms) duration=+889ms
+        ]
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [pers-s]2026-10-10 09:33:09.473 (-13d9h0m20s571ms)
+        ]
+  Uid u10s1073:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+  Uid u10s2000:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+    Package com.android.shell:
+      READ_SMS (allow): 
+      SEND_SMS (allow): 
+  Uid u10a4:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a5:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+    Package com.amazon.smarthomemapviewapp:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-04 09:23:07.612 (-19d9h10m22s432ms) duration=+42ms
+          Access: [bg-s] 2026-10-04 09:23:07.610 (-19d9h10m22s434ms) duration=+1ms
+          Access: [cch-s] 2026-10-04 09:23:07.654 (-19d9h10m22s390ms) duration=+9s994ms
+        ]
+  Uid u10a6:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a28:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a29:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a31:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a34:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a35:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a36:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+    Package com.android.providers.calendar:
+      READ_CALENDAR (allow): 
+        null=[
+          Access: [bg-tp] 2026-10-23 17:35:45.844 (-57m44s200ms)
+          Access: [cch-tp] 2026-10-16 22:33:40.114 (-6d19h59m49s930ms)
+        ]
+      WRITE_CALENDAR (allow): 
+        null=[
+          Access: [bg-tp] 2026-10-16 22:35:41.186 (-6d19h57m48s858ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [bg-s] 2026-10-16 22:35:41.140 (-6d19h57m48s904ms) duration=+105ms
+        ]
+  Uid u10a37:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a39:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a47:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a48:
+    state=fgsvc
+    capability=-CM
+    appWidgetVisible=false
+    Package com.mediatek.customerpq:
+      WRITE_SETTINGS (default): 
+        null=[
+          Reject: [fgsvc-s]2026-10-23 18:32:25.796 (-1m4s248ms)
+          Reject: [fg-s]2026-10-04 09:18:20.124 (-19d9h15m9s920ms)
+          Reject: [bg-s]2026-10-23 07:08:30.013 (-11h25m0s31ms)
+          Reject: [cch-s]2026-10-17 17:47:48.553 (-6d0h45m41s491ms)
+        ]
+  Uid u10a53:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a56:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a58:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a62:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.device.messaging:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 18:31:10.924 (-2m19s120ms) duration=+342ms
+          Access: [cch-s] 2026-10-14 21:02:46.061 (-8d21h30m43s983ms)
+        ]
+  Uid u10a64:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a68:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+    Package com.android.providers.downloads:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [bg-s]2026-10-17 09:59:15.184 (-6d8h34m14s860ms)
+        ]
+  Uid u10a69:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a70:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a71:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+  Uid u10a74:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+      LEGACY_STORAGE: mode=ignore
+    Package com.android.systemui:
+      READ_CALL_LOG (allow): 
+  Uid u10a76:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+  Uid u10a77:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.logan:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [bg-s]2026-10-23 10:56:24.673 (-7h37m5s371ms)
+        ]
+      BIND_ACCESSIBILITY_SERVICE (allow): 
+        null=[
+          Access: [bg-s] 2026-10-10 09:33:00.795 (-13d9h0m29s249ms)
+          Access: [cch-s] 2026-10-04 09:18:49.560 (-19d9h14m40s484ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-10 09:33:02.004 (-13d9h0m28s40ms) duration=+1s27ms
+          Access: [bg-s] 2026-10-10 09:33:02.002 (-13d9h0m28s42ms) duration=+2ms
+        ]
+  Uid u10a79:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.tiramisubootsupport:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [bg-s] 2026-10-04 09:23:25.048 (-19d9h10m4s996ms)
+          Access: [cch-s] 2026-10-16 22:35:23.369 (-6d19h58m6s675ms)
+        ]
+  Uid u10a80:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a85:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a86:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+  Uid u10a90:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a91:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.alexa.datastore.app:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-04 09:18:23.456 (-19d9h15m6s588ms) duration=+4s364ms
+          Access: [bg-s] 2026-10-04 09:18:27.820 (-19d9h15m2s224ms) duration=+12ms
+          Access: [cch-s] 2026-10-04 09:18:27.832 (-19d9h15m2s212ms) duration=+12d13h9m15s163ms
+        ]
+  Uid u10a92:
+    state=fgsvc
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.alexamediaplayer.runtime.ftv:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-23 18:33:12.786 (-17s258ms)
+          Access: [bg-s] 2026-10-16 23:50:16.318 (-6d18h43m13s726ms)
+          Access: [cch-s] 2026-10-23 18:33:02.836 (-27s208ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-23 18:33:06.252 (-23s792ms) duration=+23s898ms
+          Access: [bg-s] 2026-10-23 18:33:06.250 (-23s794ms) duration=+2ms
+          Running start at: +23s792ms
+        ]
+  Uid u10a93:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a94:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.alexa.externalmediaplayer.fireos:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-10 16:46:26.010 (-13d1h47m4s34ms) duration=+5ms
+          Access: [bg-s] 2026-10-10 09:33:26.387 (-13d9h0m3s657ms) duration=+9ms
+          Access: [cch-s] 2026-10-10 14:48:53.574 (-13d3h44m36s470ms) duration=+1h57m32s436ms
+        ]
+  Uid u10a96:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a97:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a98:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      RECORD_AUDIO: mode=ignore
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a99:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_CONTACTS: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a101:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a104:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a105:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a106:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a108:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=allow
+  Uid u10a109:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a110:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.device.details:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-04 09:29:25.845 (-19d9h4m4s199ms) duration=+392ms
+          Access: [bg-s] 2026-10-04 09:29:25.844 (-19d9h4m4s200ms) duration=+1ms
+          Access: [cch-s] 2026-10-04 09:21:52.460 (-19d9h11m37s584ms) duration=+184ms
+        ]
+  Uid u10a111:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a112:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+  Uid u10a113:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a115:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+    Package com.amazon.diode:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 00:23:14.269 (-18h10m15s775ms)
+        ]
+      WIFI_SCAN (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 00:23:14.269 (-18h10m15s775ms)
+        ]
+  Uid u10a116:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a117:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+      CAMERA: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a120:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.franktvinput:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 22:34:55.734 (-6d19h58m34s310ms) duration=+5s501ms
+          Access: [cch-s] 2026-10-04 09:22:44.481 (-19d9h10m45s563ms) duration=+1s973ms
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 22:34:51.142 (-6d19h58m38s902ms) duration=+27ms
+          Access: [bg-s] 2026-10-16 22:34:51.141 (-6d19h58m38s903ms) duration=+1ms
+        ]
+  Uid u10a121:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a122:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a123:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a124:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+  Uid u10a125:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      RECORD_AUDIO: mode=ignore
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a126:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a127:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a128:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a130:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a131:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.katoch:
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [bg-s] 2026-10-16 22:35:07.641 (-6d19h58m22s403ms) duration=+1s886ms
+        ]
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [bg-s] 2026-10-16 22:35:07.008 (-6d19h58m23s36ms)
+          Access: [cch-s] 2026-10-16 22:35:02.031 (-6d19h58m28s13ms)
+        ]
+  Uid u10a132:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+  Uid u10a137:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a138:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.perfcollection:
+      READ_DEVICE_IDENTIFIERS (deny): 
+        null=[
+          Reject: [bg-s]2026-10-23 18:28:43.110 (-4m46s934ms)
+          Reject: [cch-s]2026-10-17 09:06:51.363 (-6d9h26m38s681ms)
+        ]
+  Uid u10a140:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a142:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a143:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a144:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a146:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      CAMERA: mode=ignore
+      RECORD_AUDIO: mode=ignore
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a148:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.storage.manager:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [bg-s]2026-10-23 01:41:06.051 (-16h52m23s993ms)
+          Reject: [cch-s]2026-10-16 22:35:19.946 (-6d19h58m10s98ms)
+        ]
+  Uid u10a149:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a152:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+    Package com.amazon.tahoe:
+      SYSTEM_ALERT_WINDOW (default): 
+        null=[
+          Reject: [top-s]2026-10-10 09:33:54.574 (-13d8h59m35s470ms)
+          Reject: [fgsvc-s]2026-10-04 09:19:00.099 (-19d9h14m29s945ms)
+        ]
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [top-s]2026-10-10 09:33:50.812 (-13d8h59m39s232ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-10 09:32:59.830 (-13d9h0m30s214ms) duration=+52s359ms
+          Access: [fgsvc-s] 2026-10-10 20:27:10.428 (-12d22h6m19s616ms) duration=+23ms
+          Access: [bg-s] 2026-10-10 20:27:10.451 (-12d22h6m19s593ms) duration=+8s364ms
+          Access: [cch-s] 2026-10-10 20:27:18.815 (-12d22h6m11s229ms) duration=+6d2h0m21s47ms
+        ]
+  Uid u10a153:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a157:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a158:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a161:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.tv.alexaalerts:
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-16 22:33:01.560 (-6d20h0m28s484ms) duration=+173ms
+          Access: [bg-s] 2026-10-16 22:33:01.558 (-6d20h0m28s486ms) duration=+1ms
+        ]
+  Uid u10a163:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a164:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_CONTACTS: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a165:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a166:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a167:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a168:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a169:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a172:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+  Uid u10a173:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a174:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.tv.inputpreference.service:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-04 09:19:39.229 (-19d9h13m50s815ms)
+          Access: [bg-s] 2026-10-23 18:17:16.723 (-16m13s321ms)
+          Access: [cch-s] 2026-10-23 18:16:50.996 (-16m39s48ms)
+        ]
+  Uid u10a175:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a176:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      RECORD_AUDIO: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a177:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a178:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a179:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a180:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+  Uid u10a181:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=allow
+    Package com.amazon.tv.oobe:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [cch-s] 2026-10-16 22:35:55.110 (-6d19h57m34s934ms)
+        ]
+  Uid u10a182:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a183:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      READ_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a184:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+      ACCESS_MEDIA_LOCATION: mode=ignore
+    Package com.amazon.tv.quicksettings:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [fgsvc-s] 2026-10-23 18:32:26.868 (-1m3s176ms)
+          Access: [bg-s] 2026-10-23 18:30:01.192 (-3m28s852ms)
+          Access: [cch-s] 2026-10-16 22:32:49.125 (-6d20h0m40s919ms)
+        ]
+  Uid u10a185:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+    Package com.amazon.tv.releasenotes:
+      RUN_IN_BACKGROUND (allow): 
+        null=[
+          Access: [cch-s] 2026-10-16 22:34:03.709 (-6d19h59m26s335ms)
+        ]
+  Uid u10a188:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_PHONE_STATE: mode=ignore
+  Uid u10a189:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_CALENDAR: mode=ignore
+      WRITE_CALENDAR: mode=ignore
+      LEGACY_STORAGE: mode=allow
+    Package com.amazon.tv.settings.v2:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [fgsvc-s]2026-10-23 09:44:57.131 (-8h48m32s913ms)
+          Reject: [bg-s]2026-10-21 10:37:05.264 (-2d7h56m24s780ms)
+        ]
+      START_FOREGROUND (allow): 
+        null=[
+          Access: [top-s] 2026-10-04 09:18:08.301 (-19d9h15m21s743ms) duration=+276ms
+          Access: [fgsvc-s] 2026-10-23 18:31:57.648 (-1m32s396ms) duration=+448ms
+          Access: [bg-s] 2026-10-23 18:31:12.047 (-2m17s997ms) duration=+2ms
+          Access: [cch-s] 2026-10-16 16:57:02.161 (-7d1h36m27s883ms) duration=+3ms
+        ]
+  Uid u10a190:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+      LEGACY_STORAGE: mode=allow
+  Uid u10a191:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      COARSE_LOCATION: mode=ignore
+      GET_ACCOUNTS: mode=ignore
+  Uid u10a192:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.whisperjoin.middleware.np:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 18:29:48.697 (-3m41s347ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 18:29:47.217 (-3m42s827ms) duration=+1s150ms
+        ]
+  Uid u10a193:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=allow
+    Package com.amazon.venezia:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [fg-s] 2026-10-10 09:33:09.866 (-13d9h0m20s178ms)
+        ]
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [bg-s]2026-10-23 18:16:21.267 (-17m8s777ms)
+        ]
+  Uid u10a194:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a199:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a200:
+    state=fgsvc
+    capability=-CM
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a203:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+      READ_EXTERNAL_STORAGE: mode=ignore
+      WRITE_EXTERNAL_STORAGE: mode=ignore
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a206:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a210:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a211:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a213:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+  Uid u10a218:
+    state=cch
+    capability=---
+    appWidgetVisible=false
+    foregroundOps:
+      COARSE_LOCATION: WATCHER
+    hasForegroundWatchers=true
+      COARSE_LOCATION: mode=foreground
+  Uid u10a219:
+    state=pers
+    capability=LCM
+    appWidgetVisible=false
+      LEGACY_STORAGE: mode=ignore
+  Uid u10a222:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+    Package com.android.permissioncontroller:
+      GET_USAGE_STATS (default): 
+        null=[
+          Reject: [bg-s]2026-10-16 22:37:20.941 (-6d19h56m9s103ms)
+        ]
+  Uid u10a230:
+    state=bg
+    capability=---
+    appWidgetVisible=false
+    Package com.amazon.whisperjoin.middleware.v2.np:
+      COARSE_LOCATION (allow): 
+      FINE_LOCATION (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 18:33:01.853 (-28s191ms)
+        ]
+      WIFI_SCAN (allow / switch COARSE_LOCATION=allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 18:33:01.606 (-28s438ms)
+        ]
+      WAKE_LOCK (allow): 
+        null=[
+          Access: [bg-s] 2026-10-23 18:29:31.693 (-3m58s351ms) duration=+787ms
+        ]
+
+  User restrictions for token android.os.Binder@a6ee1cd:
+      Restricted ops:
+        user: 10 restricted ops: [READ_CALL_LOG, WRITE_CALL_LOG, READ_SMS, WRITE_SMS, RECEIVE_SMS, RECEIVE_MMS, SEND_SMS, READ_ICC_SMS, WRITE_ICC_SMS, SMS_FINANCIAL_TRANSACTIONS]

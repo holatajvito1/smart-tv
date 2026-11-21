@@ -1,0 +1,3 @@
+Physical size: 3840x2160
+Override size: 1920x1080
+Physical density: 320

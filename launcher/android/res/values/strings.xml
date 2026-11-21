@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Home</string>
+    <string name="service_name">Home button</string>
+    <string name="service_description">Returns to the Home launcher when the remote\'s Home button is pressed.</string>
+</resources>

@@ -1,0 +1,48 @@
+=== com.netflix.ninja run 1 18:34:24
+Starting: Intent { cmp=com.netflix.ninja/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.netflix.ninja/.MainActivity
+TotalTime: 1318
+WaitTime: 1337
+Complete
+=== com.netflix.ninja run 2 18:34:48
+Starting: Intent { cmp=com.netflix.ninja/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.netflix.ninja/.MainActivity
+TotalTime: 972
+WaitTime: 991
+Complete
+=== com.netflix.ninja run 3 18:35:09
+Starting: Intent { cmp=com.netflix.ninja/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.netflix.ninja/.MainActivity
+TotalTime: 954
+WaitTime: 964
+Complete
+=== com.amazon.firetv.youtube run 1 18:35:33
+Starting: Intent { cmp=com.amazon.firetv.youtube/dev.cobalt.app.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.amazon.firetv.youtube/dev.cobalt.app.MainActivity
+TotalTime: 932
+WaitTime: 943
+Complete
+=== com.amazon.firetv.youtube run 2 18:35:59
+Starting: Intent { cmp=com.amazon.firetv.youtube/dev.cobalt.app.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.amazon.firetv.youtube/dev.cobalt.app.MainActivity
+TotalTime: 791
+WaitTime: 807
+Complete
+=== com.amazon.firetv.youtube run 3 18:36:20
+Starting: Intent { cmp=com.amazon.firetv.youtube/dev.cobalt.app.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.amazon.firetv.youtube/dev.cobalt.app.MainActivity
+TotalTime: 930
+WaitTime: 949
+Complete

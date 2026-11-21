@@ -1,0 +1,40 @@
+# Packages to disable with `pm disable-user --user 0` (never uninstalled).
+# Uncommented lines get disabled by scripts/debloat.sh. Undo: ./restore_stock.sh --apply
+#
+# ── Tier 1: ads, tracking, telemetry, tutorials — no user-facing feature lost ──
+com.amazon.tv.acr                       # Automatic Content Recognition: fingerprints what's on screen (incl. HDMI)
+# com.amazon.ftvads.deeplinking         # ad click-through deep links  [PROTECTED: Fire OS refuses]
+com.amazon.hybridadidservice            # advertising ID service
+com.amazon.kso.blackbird                # "Kindle Special Offers" ad delivery
+com.amazon.sneakpeek                    # autoplaying video previews in home hero/rows
+com.amazon.device.telemetry.emitter     # telemetry upload
+# com.amazon.device.metrics             # device metrics collection  [PROTECTED: Fire OS refuses]
+com.amazon.wirelessmetrics.service      # Wi-Fi metrics collection
+com.amazon.perfc                        # performance data collection
+com.amazon.perfcollection               # performance data collection
+# com.amazon.device.crashmanager        # crash report upload  [PROTECTED: Fire OS refuses]
+# com.amazon.device.logmanager          # log upload  [PROTECTED: Fire OS refuses]
+com.amazon.tv.democontent.provider      # retail store demo content
+com.amazon.storm.lightning.tutorial     # first-run tutorial
+com.amazon.tmm.tutorial                 # tutorial
+com.amazon.tv.releasenotes              # "what's new" popups after updates
+com.amazon.tv.earlyaccess               # early-access/preview program
+com.amazon.minitv.android.app           # Amazon miniTV (India-only service)
+com.amazon.shoptv.client                # Amazon shopping on TV
+
+# ── Tier 2: real features — disable only if you don't use them (uncomment to include) ──
+# com.amazon.media.recommendations      # feeds the "recommended for you" rows; home rows may go blank
+# com.amazon.bueller.photos             # Amazon Photos app
+# com.amazon.bueller.music              # Amazon Music app
+# com.amazon.gamehub                    # games hub / Luna entry point
+# com.amazon.cloud9                     # Silk web browser
+# com.amazon.tv.localgallery            # local photo/video gallery (USB)
+# com.amazon.smarthomemapviewapp        # Alexa smart-home map/dashboard
+# com.amazon.device.software.ota        # system updates — disabling blocks security patches
+# com.amazon.tv.forcedotaupdater.v2     # forced system updates — same caveat
+
+# ── Deliberately NOT on this list (can break the TV or remote) ──
+# launcher, venezia (Appstore: app launching/updates), oobe, settings, ime, vizzini/Alexa voice,
+# livetv/mediatek tuner, arc, channelscan, inputpreference, devicecontrol, audio*, screensaver,
+# webview, any *.library / *.sdk / *.contracts / overlay package, and anything unidentified
+# (ceviche, hedwig, firebat, spiderpork, turnstile, aria, logan, ...).

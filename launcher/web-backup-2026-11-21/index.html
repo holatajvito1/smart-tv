@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="stage" id="stage">
+    <div class="bg" id="bg"></div>
+    <div class="scrim"></div>
+
+    <!-- Birthday etc. (OCCASIONS in app.js). Stays visible in ambient mode. -->
+    <div class="occasion" id="occasion"></div>
+
+    <!-- Stays visible in ambient mode -->
+    <div class="topbar">
+      <div class="now" id="now"><span class="bars"><i></i><i></i><i></i></span><span id="nowText"></span></div>
+      <div class="datetime">
+        <div class="clock" id="clock"></div>
+        <div class="date" id="date"></div>
+        <div class="weather" id="weather"><span class="wx-icon" id="wxIcon"></span><span id="wxText"></span></div>
+      </div>
+    </div>
+
+    <div class="ui" id="ui">
+      <section class="info" id="info">
+        <h1 class="info-name" id="infoName"></h1>
+        <p class="info-line" id="infoLine"></p>
+      </section>
+      <nav class="tiles" id="tiles"></nav>
+      <nav class="stations"><div class="station-track" id="stationTrack"></div></nav>
+      <nav class="pills" id="pills"></nav>
+    </div>
+
+    <div class="toast" id="toast"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
