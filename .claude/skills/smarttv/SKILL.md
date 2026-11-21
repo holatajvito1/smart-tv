@@ -67,16 +67,23 @@ not inline zsh**, for anything with arrays or loops (see Gotchas).
 - To change a month: replace that file, or add a new name and point the month at it in `SEASONS`.
   Preview any month on the Mac with `index.html?month=12`.
 - Make each photo **1920×1080 exactly** (the TV's UI resolution, so pixels map 1:1; larger is wasted decode time),
-  JPEG quality ~85, **at most ~1 MB** (busy foliage needs ~64). Start from a bigger original for sharpness:
-  Unsplash `.../download?force=true&w=3840`. Free licence only. Check it really is a JPEG (`file`), because **Unsplash+ (paid)
-  photos come back as non-images**.
+  JPEG quality ~85, **at most ~1 MB** (busy foliage needs ~64). Free licence only (Unsplash License, not Unsplash+;
+  skip "Sponsored" results). Check it really is a JPEG (`file`).
+- **Getting Unsplash photos (as of 2026-11-21):** `unsplash.com/photos/<id>/download` now returns **401** without a
+  login, and the `unsplash.com/napi/...` search API is off-limits (permission denied). What works: browse the public
+  search page `unsplash.com/s/photos/<query>?orientation=landscape&license=free` with WebFetch, WebFetch each photo page
+  for its `images.unsplash.com/photo-<id>` URL + licence, then curl the CDN, which crops for you:
   ```bash
-  cp src.jpg crop.jpg && sips -c 2160 3840 crop.jpg          # center-crop a 3840-wide original to 16:9 (portrait ok)
-  sips -s format jpeg -s formatOptions 85 --resampleWidth 1920 crop.jpg --out launcher/web/img/bg/<name>.jpg
-  sips -f horizontal launcher/web/img/bg/<name>.jpg          # optional: mirror to move the subject right of the title
+  curl -sSfL -o src.jpg "https://images.unsplash.com/photo-<id>?fm=jpg&q=95&w=3840&h=2160&fit=crop&crop=entropy"
+  sips -s format jpeg -s formatOptions 85 --resampleWidth 1920 src.jpg --out launcher/web/img/bg/<name>.jpg
+  sips -f horizontal launcher/web/img/bg/<name>.jpg          # optional: mirror to move the subject
   ```
-- Check the **top-right corner** (clock + date) and the bottom-left (title) are readable. The scrim in `.scrim`
-  (app.css) shades both. Bright bokeh or leaves were the hard cases.
+  For picking, grab `w=640&h=360&fit=crop` previews and lay them out on a contact sheet with codes (N1, D4…).
+- Current photos (2026-11-21, user's picks): Nov `thanksgiving` = pumpkins (Tim Mossholder, Unsplash `Yhsj0lQDrlw`),
+  Dec `christmas` = ornament close-up (`CaY20v303fI`), Jan–Feb `winter` = snowy peak (`a7Dm-Ty7dNE`).
+- Check the **top-right corner** (clock + date) and the app name above the dock are readable. The scrim in `.scrim`
+  (app.css) shades both. Bright bokeh or leaves were the hard cases. **Snow/sky photos:** add the name to
+  `BRIGHT_PHOTOS` in app.js; that adds `.bright` to the stage and a heavier `.bright .scrim` (winter uses it).
 - Preview on the Mac, get the user's OK, then `scripts/deploy.sh`.
 
 ### Birthday / occasion messages

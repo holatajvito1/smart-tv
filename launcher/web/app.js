@@ -67,6 +67,8 @@ const PILLS = [
 // Background by month (0 = January): img/bg/<name>.jpg, all 1920x1080.
 const SEASONS = ["winter", "winter", "spring", "spring", "spring", "summer",
                  "summer", "summer", "autumn", "halloween", "thanksgiving", "christmas"];
+// Photos too bright for white text (snow, sky): these get the heavier .bright scrim.
+const BRIGHT_PHOTOS = ["winter"];
 
 // Messages shown over the background all day on these dates, every year (month 1-12).
 const OCCASIONS = [
@@ -373,6 +375,7 @@ function setSeason(name) {
   if (setSeason.current === name) return;
   setSeason.current = name;
   $("bg").style.backgroundImage = `url("img/bg/${name}.jpg")`;
+  $("stage").classList.toggle("bright", BRIGHT_PHOTOS.includes(name));
 }
 
 // ── Weather ──
